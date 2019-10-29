@@ -25,7 +25,7 @@ public class Main {
         , new Borrower("Belinda Brown", "17/06/2018", "18:50", BorrowerType.GOLD)
         , new Borrower("Daniel Strong", "13/04/2019", "14:10", BorrowerType.PREMIUM)
         , new Borrower("Amanda Williams", "13/01/2017", "12:45", BorrowerType.GOLD)
-        , new Borrower("John Sams", "10/07/2019", "19:00", BorrowerType.CHILDREN));
+        , new Borrower("John Ato", "10/07/2019", "19:00", BorrowerType.CHILDREN));
 
         List<Book> allBooks = new ArrayList<>();
 
