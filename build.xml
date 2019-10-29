@@ -1,4 +1,5 @@
 <project name="MyProject" default="dist" basedir=".">
+  <target name="dist"></target>
   <property name="output.dir" value="${basedir}/build"/>
   <property name="src.test.dir" value="${basedir}/src/test"/>
   <property name="build.classes.dir" value="${output.dir}/classes"/>
@@ -8,11 +9,11 @@
   </target>
 
   <path id="junit.platform.libs.classpath">
-    <fileset dir="${basedir}/src/lib/junit-platform/"/>
+    <fileset dir="${basedir}lib/junit-platform/"/>
   </path>
 
   <path id="junit.engine.jupiter.classpath">
-    <fileset dir="${basedir}/src/lib/jupiter/"/>
+    <fileset dir="${basedir}lib/jupiter/"/>
   </path>
 
   <target name="compile-test" depends="init">
